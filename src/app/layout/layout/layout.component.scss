@@ -1,0 +1,37 @@
+.sub-header {
+  margin-top: 65px;
+  height: 80px;
+  background-color: RED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  align-items: center;
+
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+  }
+}
+
+
+.logo {
+  float: left;
+  min-width: 100px;
+
+  img {
+    max-height: 50px;
+  }
+}
+
+.second-nav {
+  float: left;
+}

@@ -54,8 +54,10 @@
       transition: all .3s ease;
       cursor: pointer;
       padding: .75rem 1.25rem;
+      -webkit-border-radius: .75rem;
       border-radius: .75rem;
       text-decoration: none;
+      font-size: 14px;
 
       span {
         color: #ddd;
@@ -93,7 +95,7 @@
   z-index: 22;
 
   .dropdown-item {
-    padding: 0.6rem 1.2rem;
+    padding: 0.7rem 1.2rem;
 
     i {
       color: #666;
@@ -147,10 +149,20 @@
     left: -245px;
     width: 230px;
     display: block;
+    padding: 8px 0;
     border-right: 1px solid #DDD;
 
     li {
+      padding: 0;
+      margin: 3px;
+
       a {
+        display: block;
+        width: 100%;
+        padding: .75rem 0.75rem;
+        -webkit-border-radius: .3rem;
+        border-radius: .3rem;
+
         span {
           color: #545454;
         }
@@ -159,7 +171,17 @@
           color: #3367ab;
         }
       }
+
+      .active {
+        // background: #3367ab;
+
+        span {
+          color: #3367ab;
+        }
+      }
     }
+
+
   }
 
   .faBars {
@@ -167,6 +189,7 @@
       display: none;
     }
   }
+
   .faClose {
     i {
       display: none;

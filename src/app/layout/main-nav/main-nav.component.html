@@ -4,9 +4,9 @@
             <img src="../../../assets/logo-mobile.png" alt="logo" />
         </div>
         <ul class="main-nav" [class]="menuWeb? 'menuMobile':'menuWeb'">
-            <li><a href="/#"><span>Courses</span></a></li>
-            <li><a [routerLink]="['/home']" routerLinkActive="active"><span>Certificates</span></a></li>
-            <li><a href="/#"><span>Catalogs</span></a></li>
+            <li><a [routerLink]="['/courses']" routerLinkActive="active"><span>Courses</span></a></li>
+            <li><a [routerLink]="['./certificates']" routerLinkActive="active"><span>Certificates</span></a></li>
+            <li><a [routerLink]="['./catalogs']" routerLinkActive="active"><span>Catalogs</span></a></li>
         </ul>
         <div class="main-nav-side">
             <div class="menubars">

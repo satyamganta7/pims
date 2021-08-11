@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body,
+html {  
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f3f7fb;
+}
+
+.clear,
+.clearfix {
+  clear: both;
+}
+h1{
+  font-size: 22px;
+  color: #3367ab;
+  font-weight: 600;
+}
+.page-title{
+  padding-bottom: 3px;
+  span{
+    font-size: 14px;
+    color: #545454;
+  }
+}
+.custom-panel {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.custom-panel-body {
+  padding: 15px;
+  min-height: 200px;
+}
+
+@media (max-width:992px) {
+
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: none;
+    padding: 0 15px;
+  }
+}

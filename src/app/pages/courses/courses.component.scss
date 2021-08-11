@@ -1,0 +1,38 @@
+.filter-position{
+    position: sticky;
+    top: 80px;
+}
+.filters {
+  margin-bottom: 10px;
+
+  h6 {
+    margin: 0;
+  }
+
+  .card-body {
+    padding: 0.6rem;
+  }
+}
+
+.f-card {
+  padding: 10px;
+  min-height: 142px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+
+  h4 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  p{
+      margin-bottom: 6px;
+      min-height: 60px;
+  }
+}

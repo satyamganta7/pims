@@ -1,0 +1,32 @@
+<div class="main-wrapper">
+    <div class="main-header">
+        <app-main-nav></app-main-nav>
+    </div>
+    <!-- /MAIN HEADER -->
+    <div class="sub-header">
+        <div class="container">
+            <div class="logo">
+                <img src="../../../assets/logo.png" alt="logo" />
+            </div>
+            <div class="second-nav">
+                <app-sub-nav></app-sub-nav>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- /SUB HEADER  -->
+    <div class="content-wrapper">
+        <div class="page-wrapper">
+            <div class="container">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+    <!-- /CONTENT WRAPPER -->
+    <footer class="footer">
+
+        <app-footer></app-footer>
+    </footer>
+    <!-- /FOOTER -->
+</div>
+<!-- /MAIN WRAPPER -->

@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainNavComponent implements OnInit {
 
+  menuWeb = false;
+  faBars = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  menuExpand():void{
+    this.menuWeb = !this.menuWeb;
+    this.faBars = !this.faBars;
+  }
+
 
 }

@@ -7,7 +7,24 @@ html {
   font-family: Poppins, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #f3f7fb;
+}
+
 .clear,
 .clearfix {
   clear: both;
+}
+
+@media (max-width:992px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: none;
+    padding: 0 15px;
+  }
 }

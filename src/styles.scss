@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 body,
-html {  
+html {
   font-size: 13px;
   font-weight: 400;
   color: #333;
@@ -16,18 +16,22 @@ body {
 .clearfix {
   clear: both;
 }
-h1{
+
+h1 {
   font-size: 22px;
   color: #3367ab;
   font-weight: 600;
 }
-.page-title{
+
+.page-title {
   padding-bottom: 3px;
-  span{
+
+  span {
     font-size: 14px;
     color: #545454;
   }
 }
+
 .custom-panel {
   position: relative;
   margin-bottom: 20px;
@@ -43,6 +47,14 @@ h1{
 .custom-panel-body {
   padding: 15px;
   min-height: 200px;
+}
+
+.bg-primary {
+  background-color: #3367ab !important;
+}
+
+.badge{
+  font-weight: 500 !important;
 }
 
 @media (max-width:992px) {

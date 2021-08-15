@@ -65,7 +65,8 @@ footer {
 
 .content-wrapper{
   padding: 20px 0;
-  min-height: calc(100vh - 190px);
+  margin-top: 75px;
+  min-height: calc(100vh - 100px);
 }
 
 @media (max-width:992px) {
@@ -78,6 +79,7 @@ footer {
     display: none;
   }
   .content-wrapper{
-    min-height: calc(100vh - 162px);
+    margin-top: 55px;
+    min-height: calc(100vh - 90px);
   }
 }

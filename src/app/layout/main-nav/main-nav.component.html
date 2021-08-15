@@ -1,9 +1,12 @@
 <div class="main-nav-fixed">
     <div class="container">
-        <div class="logo-mobile">
+        <!-- <div class="logo-mobile">
             <img src="../../../assets/logo-mobile.png" alt="logo" />
+        </div> -->
+        <div class="logo navbar-brand">
+            <img src="../../../assets/logo.png" alt="logo" />
         </div>
-        <ul class="main-nav" [class]="menuWeb? 'menuMobile':'menuWeb'">
+        <ul class="main-nav me-auto" [class]="menuWeb? 'menuMobile':'menuWeb'">
             <li><a [routerLink]="['/courses']" routerLinkActive="active"><span>Courses</span></a></li>
             <li><a [routerLink]="['./certificates']" routerLinkActive="active"><span>Certificates</span></a></li>
             <li><a [routerLink]="['./catalogs']" routerLinkActive="active"><span>Catalogs</span></a></li>
